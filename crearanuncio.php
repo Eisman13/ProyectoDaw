@@ -5,7 +5,8 @@ if(!isset($_SESSION['username'])){
     #header("Location: login.php");
   echo "Session: " + $_SESSION['username'];
 } else {
-//else cuando tiene la sesion iniciada
+
+//ELSE CUANDO TIENE INICIADA LA SESION//
 
   $succes = false;
   $alreadyExist = false;
@@ -25,11 +26,6 @@ if(!isset($_SESSION['username'])){
   }
 }
  ?>
-
-
-
-
-    <!--SLIDER IMG-->
 
     
 <div class="container">

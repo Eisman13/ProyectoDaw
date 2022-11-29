@@ -1,7 +1,7 @@
 <?php
-/**
- * 
- */
+
+//CREACION DE LA BASE DE DATOS Y CONEXION CON EL SERVIDOR LOCAL//
+
 class DataBase 
 {
 

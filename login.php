@@ -1,7 +1,11 @@
-<?php require_once('templates/header.php'); ?>
+<?php require_once('templates/header.php'); 
+
+//INCLUDE ENCABEZADO DE PAGINA//
+
+?>
 <?php 
   
-  //formulario de inicio de sesion
+  //FORMULARIO DE INICIO DE SESION//
 
   $succes = false;
   $alreadyExist = false;
@@ -18,16 +22,13 @@
     $_SESSION['username'] = $_POST['email'];
     $_SESSION['id'] = $userRepository->getByEmailAndPassword($_POST['email'], $_POST['password'])['id']; 
 
+    //REDIRECCION A PORTADA SI SE INICIA SESION//
+
     header("Location: index.php");
     
     }
   }
  ?>
-
-
-
-
-    <!--SLIDER IMG-->
 
     
 <div class="container">
@@ -53,5 +54,9 @@
   </div>
 </div>
 
-<?php require_once('templates/footer.php'); ?>
+<?php require_once('templates/footer.php'); 
+
+//INCLUDE PIE DE PAGINA//
+
+?>
 

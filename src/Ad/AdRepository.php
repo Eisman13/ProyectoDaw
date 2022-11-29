@@ -1,5 +1,7 @@
 <?php
-//Creacion de anuncios en la base de datos
+
+//CREACION DE ANUNCIOS EN LA BASE DE DATOS//
+
 require_once('src/Shared/DataBase.php');
 class AdRepository {
   private $connection;

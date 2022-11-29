@@ -1,5 +1,7 @@
 <?php
-//creacion de usuarios en la base de datos
+
+//CREACION DE USUARIOS EN LA BASE DE DATOS//
+
 require_once('src/Shared/DataBase.php');
 class UserRepository {
   private $connection;

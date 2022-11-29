@@ -1,6 +1,8 @@
 <?php require_once('templates/header.php'); ?>
 <?php 
-  //registro de usuario
+  
+//REGISTRO DE USUARIO//
+
   $succes = false;
   $alreadyExist = false;
   
@@ -19,6 +21,8 @@
 
     echo "No se ha podido realizar el registro, revise sus datos nuevamente" . "<br>";
 
+    //REDIRECCION A LOGIN SI SE REGISTRA USUARIO//
+
     header("Location: login.php");
 
     
@@ -26,11 +30,6 @@
     
   }
  ?>
-
-
-
-
-    <!--SLIDER IMG-->
 
     
 <div class="container">

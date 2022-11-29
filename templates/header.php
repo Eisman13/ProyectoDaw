@@ -1,4 +1,6 @@
 <?php
+
+//ESTO NOS INDICA QUE LA SESION ESTA INICIADA//
 session_start(); ?>
 
 <!DOCTYPE html>

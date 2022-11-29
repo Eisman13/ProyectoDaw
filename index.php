@@ -5,7 +5,8 @@
 <?php else : ?>
 
 <?php endif ?>
-    <!--HEADER-->
+   
+    <!--ENCABEZADO-->
 
     
 <div class="container">
@@ -83,5 +84,6 @@ if (isset($_POST['city']) && $_POST['city'] !=0) {
     </div>
 
 
-    <!--FOOTER-->
+    <!--PIE DE PAGINA-->
+
 <?php require_once('templates/footer.php'); ?>

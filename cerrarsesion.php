@@ -1,6 +1,8 @@
 <?php
 session_start();
-//Terminar la sesion
+
+//TERMINAR O CERRAR LA SESION//
+
 session_destroy();
 
 

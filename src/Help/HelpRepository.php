@@ -1,5 +1,7 @@
 <?php
-//Creacion de consultas en la base de datos
+
+//CREACION DE CONSULTAS EN LA BASE DE DATOS//
+
 require_once('src/Shared/DataBase.php');
 class HelpRepository {
   private $connection;

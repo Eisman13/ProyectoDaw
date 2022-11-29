@@ -1,7 +1,8 @@
-<?php require_once('templates/header.php'); ?>
+<?php require_once('templates/header.php'); 
 
+//INCLUDE ENCABEZADO DE PAGINA//
 
-    <!--SLIDER IMG-->
+?>
 
     
 <div class="container">
@@ -34,11 +35,11 @@ Le responderemos lo antes posible.</p>
 
 <?php 
 
+//CONDICION SI EL USUARIO ESTA O NO LOGUEADO//
+
 if(isset($_SESSION['username']) && !empty($_SESSION['username']))
 {
 
-
-//else cuando tiene la sesion iniciada
 
   $succes = false;
   $alreadyExist = false;
@@ -75,5 +76,7 @@ if(isset($_SESSION['username']) && !empty($_SESSION['username']))
 <?php 
 }
 require_once('templates/footer.php'); 
+
+//INCLUDE PIE DE PAGINA//
 
 ?>
