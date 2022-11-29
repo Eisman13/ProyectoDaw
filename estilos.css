@@ -1,0 +1,266 @@
+*{
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  width: 17%;
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 8px;
+  background-color: orange;
+  z-index: 0;
+  font-size: 18px;
+}
+
+nav a.botonmenu{
+  color: #000;
+  text-align: center;
+  height: 180px;
+  vertical-align: middle;
+  padding: 85px 20px 0 20px;
+}
+
+nav a.botonmenu:hover{
+  background-color: black;
+  color: white; 
+} 
+
+/*BOTONES*/
+.shared-panel{
+  overflow: auto;
+}
+
+.shared-panel span{
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+    color: white;
+}
+
+.shared {
+  display:flex;
+  width: 38px; 
+  height: 38px;
+  margin: 5px 0; 
+  padding: 0;     
+  float: left;
+  margin-right: 5px; 
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/*CONTENIDO DE CARTAS PRODUCTOS*/
+  
+.nombres{
+  padding: 1%;
+}
+  
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: black;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.header{
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 255px);
+}
+
+.header div{
+  float: left;
+  color: #fff;
+  font-family: Arial;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.login{
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 50px);
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.login input{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(90,90,90,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+  opacity: 0.8;
+  display: inline-flex;
+}
+
+.login input:focus{
+  outline: none;
+  border: 1px solid rgba(90,90,90);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1%;
+}
+
+h2 {
+  text-align: justify;
+  text-decoration: underline;
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 15px;
+    padding: 5px;
+    text-align: justify;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+h3{
+  text-align: center;
+  font-style: strong;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.categoriesDiv{
+  width: 100%;
+}
+
+.register-form{
+  width: 30%;
+  margin: 0 auto;
+  min-height: 180px;
+}
+
+.register-form input{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+.register-form button{
+  width: 40%;
+  margin-bottom: 5px;
+  padding: 15px;
+  margin-top: 0;
+}
+
+.search-box{
+  width: 40%;
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.row{
+  padding: 1%;
+}
+
+/* ---------------------- */
+/* Estilos de Materialize */
+/* ---------------------- */
+.carousel .carousel-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  user-select: none;
+  width: 350px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.carousel-card {
+  box-shadow: 0 4px 8px 0 #3e3e3e;
+  border-bottom: 2px solid #3e3e3e;
+  border-radius: 10px;
+  background-color: #eee;
+  width: 350px;
+  margin: auto;
+  padding: 10px;
+  font-family: Arial;
+  color: black;
+}
+
+.carousel-card button {
+  border: ;
+  border-radius: 5px;
+  padding: 8px;
+  color: black;
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.carousel-card button:hover {
+    opacity: 0.7;
+  }
+
+.footer{
+  margin: 1%;
+  display:block;
+  position: absolute;
+}
+
+footer p{
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Arial;
+  color: #fff;
+}
+
+.copyright{
+    background-color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding:2%;
+}
+
